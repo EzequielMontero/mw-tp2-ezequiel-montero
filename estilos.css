@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  background-image: url("./images/logo.png");
+  width: 96px;
+  height: 80px;
+  font-size: 0;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  padding: 10;
+  z-index: 1;
+}
+#cajas1 {
+  background-color: rgb(216, 178, 88);
+}
+#cajas2 {
+  background-color: rgba(155, 84, 13, 0.768);
+}
+
+.textoMobile {
+  font-size: 16px;
+}
+@media (min-width: 1160px) {
+  .textoMobile {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1600px) {
+  .textoMobile {
+    font-size: 30px;
+  }
+}
